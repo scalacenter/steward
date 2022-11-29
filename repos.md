@@ -10,6 +10,5 @@
 - scalacenter/scalafix
 - scalacenter/scalafix.g8
 - scalacenter/scalajs-bundler
-- scalacenter/scala-3-migration-guide
 - scalacenter/scala-debug-adapter
 - scalacenter/scastie
