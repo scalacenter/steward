@@ -1,14 +1,14 @@
-name: DIY Steward
+name: Scala Center Steward
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
   steward:
     runs-on: ubuntu-latest
-    name: DIY Steward
+    name: Scala Center Steward
     steps:
       - uses: actions/checkout@v3
           
@@ -16,14 +16,13 @@ jobs:
         id: generate-token
         uses: tibdex/github-app-token@v1
         with:
-          app_id: 123456
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+          app_id: ${{ secrets.SCALA_STEWARD_APP_ID }}
+          private_key: ${{ secrets.SCALA_STEWARD_APP_PRIVATE_KEY }}
 
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
-          author-email: 123456+your-app-name[bot]@users.noreply.github.com
-          author-name: your-app-name[bot]
-          github-app-id: 123456
-          github-app-key: ${{ secrets.APP_PRIVATE_KEY }}
+          repos-file: 'repos.md'
+          author-email: 123456+scala-center-steward[bot]@users.noreply.github.com
+          author-name: scala-center-steward[bot]
