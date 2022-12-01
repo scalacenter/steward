@@ -11,10 +11,6 @@ jobs:
     name: Scala Center Steward
     steps:
       - uses: actions/checkout@v3
-      - uses: jodersky/setup-mill@v0.3.0
-        with:
-          mill-version: 0.10.9
-          
       - name: Generate token
         id: generate-token
         uses: tibdex/github-app-token@v1
@@ -23,7 +19,7 @@ jobs:
           private_key: ${{ secrets.SCALA_STEWARD_APP_PRIVATE_KEY }}
 
       - name: Launch Scala Steward
-        uses: scala-steward-org/scala-steward-action@v2
+        uses: scala-steward-org/scala-steward-action@mill
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           repos-file: 'repos.md'
