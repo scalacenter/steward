@@ -1,5 +1,6 @@
 - scalacenter/bloop
 - scalacenter/bloop-config
+- scalacenter/bloop-maven-plugin
 - scalacenter/effective-scala-slide-code
 - scalacenter/library-example
 - scalacenter/sbt-scalafix
