@@ -1,3 +1,4 @@
+- scalacenter/advisoryboard
 - scalacenter/bloop
 - scalacenter/bloop-config
 - scalacenter/bloop-maven-plugin
