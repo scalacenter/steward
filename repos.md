@@ -3,6 +3,7 @@
 - scalacenter/bloop-config
 - scalacenter/bloop-maven-plugin
 - scalacenter/effective-scala-slide-code
+- scalacenter/example-scalafix-rule
 - scalacenter/gradle-bloop
 - scalacenter/library-example
 - scalacenter/sbt-scalafix
