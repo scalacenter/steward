@@ -13,6 +13,7 @@
 - scalacenter/scaladex
 - scalacenter/scalafix
 - scalacenter/scalafix.g8
+- scalacenter/scalafix-named-literal-arguments
 - scalacenter/scalajs-bundler
 - scalacenter/scala-debug-adapter
 - scalacenter/scastie
