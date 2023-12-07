@@ -27,6 +27,7 @@ jobs:
           author-name: scala-center-steward[bot]
 
       - uses: gautamkrishnar/keepalive-workflow@v1
+        if: always()
         with:
           committer_username: scala-center-steward[bot]
           committer_email: 111975575+scala-center-steward[bot]@users.noreply.github.com
