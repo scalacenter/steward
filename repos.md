@@ -17,3 +17,4 @@
 - scalacenter/scalajs-bundler
 - scalacenter/scala-debug-adapter
 - scalacenter/scastie
+- scalacenter/scalac-profiling
