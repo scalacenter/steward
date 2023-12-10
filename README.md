@@ -11,6 +11,6 @@ of what a pr looks like [here](https://github.com/scalacenter/bloop/pull/1893).
 
 Edit the [repos.md](./repos.md) file.
 
-**NOTE:** THis steward instance is only for `scalacenter` org repos. If you're
+**NOTE:** This steward instance is only for `scalacenter` org repos. If you're
 outside of the org and would like to run Steward on your repos check out
 [diy-steward](https://github.com/armanbilge/diy-steward).
