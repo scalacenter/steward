@@ -6,6 +6,7 @@
 - scalacenter/example-scalafix-rule
 - scalacenter/gradle-bloop
 - scalacenter/library-example
+- scalacenter/sbt-dependency-submission
 - scalacenter/sbt-scalafix
 - scalacenter/sbt-scalafix-example
 - scalacenter/sbt-version-policy
