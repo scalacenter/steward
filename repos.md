@@ -7,6 +7,7 @@
 - scalacenter/gradle-bloop
 - scalacenter/library-example
 - scalacenter/sbt-dependency-submission
+- scalacenter/sbt-missinglink
 - scalacenter/sbt-scalafix
 - scalacenter/sbt-scalafix-example
 - scalacenter/sbt-version-policy
