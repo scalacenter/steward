@@ -9,7 +9,7 @@ of what a pr looks like [here](https://github.com/scalacenter/bloop/pull/1893).
 
 ## Adding a repo
 
-Edit the [repos.md](./repos.md) file.
+Edit the [repos.md](./repos.md) file
 
 **NOTE:** This steward instance is only for `scalacenter` org repos. If you're
 outside of the org and would like to run Steward on your repos check out
