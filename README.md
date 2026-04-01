@@ -1,7 +1,6 @@
 # Scala Center Steward
 
-Runs the
-[scala-steward-action](https://github.com/scala-steward-org/scala-steward-action)
+Runs the [scala-steward-action](https://github.com/scala-steward-org/scala-steward-action)
 daily to ensure dependencies across the Scala Center stay up to date.
 
 PRs are sent in by the `scala-center-steward[bot]` app. You can see an example
